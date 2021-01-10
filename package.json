@@ -1,0 +1,40 @@
+{
+  "name": "@awwsmm/TypeDown",
+  "version": "0.0.0",
+  "description": "A Markdown parser written in TypeScript",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "test": "mocha --require ts-node/register test/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awwsmm/TypeDown.git"
+  },
+  "keywords": [
+    "markdown",
+    "parser",
+    "ts",
+    "typescript",
+    "interpreter"
+  ],
+  "author": "awwsmm",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/awwsmm/TypeDown/issues"
+  },
+  "homepage": "https://github.com/awwsmm/TypeDown#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.20",
+    "chai": "^4.2.0",
+    "fast-check": "^2.11.0",
+    "mocha": "^8.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
